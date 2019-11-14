@@ -1,11 +1,13 @@
 import React from 'react';
-import Myform from './components/Form';
 import './App.css';
+import Myform from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <Myform />
+      <header className="App-header">
+        <Myform />
+      </header>
     </div>
   );
 }
