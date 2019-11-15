@@ -5,9 +5,12 @@ import Myform from './components/Form';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div>
+        <h1>My App</h1>
+      </div>
+      <div>
         <Myform />
-      </header>
+      </div>
     </div>
   );
 }
